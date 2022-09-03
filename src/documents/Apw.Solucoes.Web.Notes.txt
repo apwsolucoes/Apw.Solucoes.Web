@@ -1,0 +1,29 @@
+ng generate component xyz
+
+
+https://www.typescriptlang.org/
+
+# Curso Angular v13: #6 - Estrutura do Projeto
+
+node_modules: dependências
+
+# Curso Angular v13: #7 - Deploy
+
+https://vercel.com/
+
+# Curso Angular v13: #8 - Editando um Herói
+
+ng g c nome_compomente
+
+Two-way data binding [(ngModel)]="objet.propertie"
+
+# Curso Angular v13: #9 - Adicionando ESLint
+https://eslint.org/
+
+$ ng add @angular-eslint/schematics
+
+https://deepscan.io/
+
+
+
+
