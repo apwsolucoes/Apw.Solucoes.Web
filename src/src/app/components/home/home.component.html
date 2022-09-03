@@ -1,14 +1,29 @@
-<table>
+<table class="homeTable1">
   <tr>
-    <th>#</th>
-    <th>Nome</th>
+    <th>Projeto</th>
+    <th>Descrição</th>
+    <th>Url</th>
   </tr>
-  <tr>
-    <td>{{ portifolio.id }}</td>
+  <tr *ngFor="let portifolio of portifolioMock">
     <td>{{ portifolio.name }}</td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td><input id="name" [(ngModel)]="portifolio.name" type="text" /></td>
+    <td>{{ portifolio.description }}</td>
+    <td>
+      <a href="{{ portifolio.url }}" target="_blank">{{ portifolio.url }}</a>
+    </td>
   </tr>
 </table>
+
+<hr />
+
+<div>
+  <h4>Portifólio</h4>
+  <div *ngFor="let portifolio of portifolioMock">
+    <p>
+      <b>{{ portifolio.name }}</b
+      ><br />
+      {{ portifolio.description }}<br />
+      <a href="{{ portifolio.url }}" target="_blank">{{ portifolio.url }}</a>
+    </p>
+    <hr />
+  </div>
+</div>

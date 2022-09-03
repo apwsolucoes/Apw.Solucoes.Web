@@ -5,5 +5,6 @@ export interface IPortifolio extends IEntity {
   description?: string;
   status?: string;
   url?: string;
+  imageUrl?: string;
   order?: number;
 }

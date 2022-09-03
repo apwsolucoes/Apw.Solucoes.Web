@@ -1,5 +1,8 @@
-ng generate component xyz
 
+Referência: Curso Angular v13: #1 - Apresentação
+{https://www.youtube.com/watch?v=qfUcxetl74M&list=PLqsayW8DhUmvtNlkDqYj99X73ts9FLK7j&ab_channel=PauloEduardoMelo}
+
+ng generate component xyz
 
 https://www.typescriptlang.org/
 
@@ -25,5 +28,4 @@ $ ng add @angular-eslint/schematics
 https://deepscan.io/
 
 
-
-
+# Curso Angular v13: #10 - Lista de Heroes
