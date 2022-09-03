@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { IPortifolio } from 'src/app/pages/portifolio/shared/models/portifolio.model';
 
 @Component({
@@ -6,7 +6,7 @@ import { IPortifolio } from 'src/app/pages/portifolio/shared/models/portifolio.m
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent {
   constructor() {}
 
   portifolio: IPortifolio = {
@@ -15,6 +15,4 @@ export class HomeComponent implements OnInit {
     url: 'http://www.apwsolucoes.com.br/',
     order: 1
   };
-
-  ngOnInit() {}
 }

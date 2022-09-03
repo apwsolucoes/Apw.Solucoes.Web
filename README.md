@@ -69,3 +69,7 @@ docker push apwsolucoes/apw-sol-web-img:v2
 --- 2022-08-01
 docker tag d159c9753a72 apwsolucoes/apw-sol-web-img:v2
 docker push apwsolucoes/apw-sol-web-img:v2
+
+
+# Quality of the code
+[![DeepScan grade](https://deepscan.io/api/teams/18867/projects/22156/branches/651745/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=18867&pid=22156&bid=651745)
