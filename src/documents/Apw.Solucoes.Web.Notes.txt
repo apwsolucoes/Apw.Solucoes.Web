@@ -27,5 +27,13 @@ $ ng add @angular-eslint/schematics
 
 https://deepscan.io/
 
-
 # Curso Angular v13: #10 - Lista de Heroes
+
+# Curso Angular v13: #12 - Angular Material
+ng add @angular/material
+
+https://material.angular.io/components/categories
+CDK = Component Dev Kit
+
+Flex-Layout
+https://tburleson-layouts-demos.firebaseapp.com/#/issues
