@@ -1,3 +1,7 @@
-<p>
-  portifolio-view works!
-</p>
+<div *ngIf="portifolio">
+  <h4>{{ portifolio.name }}</h4>
+  <p>
+    {{ portifolio.description }}<br />
+    <a href="{{ portifolio.url }}" target="_blank">{{ portifolio.url }}</a>
+  </p>
+</div>

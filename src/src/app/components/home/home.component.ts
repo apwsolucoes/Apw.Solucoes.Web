@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { portifolio } from 'src/app/pages/portifolio/shared/models/portifolio.mock';
+import { portifolioMock } from 'src/app/pages/portifolio/shared/models/portifolio.mock';
+import { IPortifolio } from '../../pages/portifolio/shared/models/portifolio.model';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,10 @@ import { portifolio } from 'src/app/pages/portifolio/shared/models/portifolio.mo
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
+  portifolioList = portifolioMock;
+  selectedPortifolio: IPortifolio;
 
-  portifolioMock = portifolio;
+  onSelect(portifolio: IPortifolio){
+    this.selectedPortifolio = portifolio;
+  }
 }

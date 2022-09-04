@@ -4,7 +4,7 @@
     <th>Descrição</th>
     <th>Url</th>
   </tr>
-  <tr *ngFor="let portifolio of portifolioMock">
+  <tr *ngFor="let portifolio of portifolioList">
     <td>{{ portifolio.name }}</td>
     <td>{{ portifolio.description }}</td>
     <td>
@@ -15,15 +15,27 @@
 
 <hr />
 
-<div>
-  <h4>Portifólio</h4>
-  <div *ngFor="let portifolio of portifolioMock">
-    <p>
-      <b>{{ portifolio.name }}</b
-      ><br />
-      {{ portifolio.description }}<br />
-      <a href="{{ portifolio.url }}" target="_blank">{{ portifolio.url }}</a>
-    </p>
-    <hr />
-  </div>
-</div>
+<table class="homeTable2">
+  <tr>
+    <td>
+      <h4>Portifólio</h4>
+      <div *ngFor="let portifolio of portifolioList">
+        <p (click)="onSelect(portifolio)" class="pover">
+          <b>{{ portifolio.name }}</b
+          ><br />
+          {{ portifolio.description }}<br />
+          <a href="{{ portifolio.url }}" target="_blank">{{
+            portifolio.url
+          }}</a>
+        </p>
+        <hr />
+      </div>
+    </td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td style="vertical-align: text-top">
+      <app-portifolio-view
+        [portifolio]="selectedPortifolio"
+      ></app-portifolio-view>
+    </td>
+  </tr>
+</table>
