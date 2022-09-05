@@ -1,0 +1,7 @@
+<mat-card *ngIf="messageService.getMessages().length" class="mat-card-top">
+  <h3>Messages</h3>
+  <button mat-raised-button color="warn" (click)="messageService.clear()">Clear messages</button>
+  <div *ngFor="let message of messageService.getMessages()">
+    {{ message }}
+  </div>
+</mat-card>

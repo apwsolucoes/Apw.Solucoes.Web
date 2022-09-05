@@ -7,8 +7,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
 import { PortifolioViewComponent } from './pages/portifolio/portifolio-view/portifolio-view.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
+import { MessagesComponent } from './components/messages/messages.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,7 @@ import { MatCardModule } from '@angular/material/card';
     HomeComponent,
     NavbarComponent,
     PortifolioViewComponent,
+    MessagesComponent,
   ],
   imports: [
     BrowserModule,
@@ -24,6 +27,7 @@ import { MatCardModule } from '@angular/material/card';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent],

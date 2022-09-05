@@ -46,3 +46,15 @@ Classes singleton = classe única na aplicação (compatilhada)
 
 ng g s portifolio
 @Injectable = Injeção de dependência
+
+Curso Angular v13: #14 - Observable
+subscribe = deseja ser notificado quando houver uma mudança
+
+Curso Angular v13: #15 - Observable a fundo
+https://rxjs.dev/
+
+https://rxjs.dev/guide/observable
+
+de: function (value) para (value) =>
+
+Curso Angular v13: #16 - Mostrando Mensagens
