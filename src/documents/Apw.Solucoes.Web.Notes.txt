@@ -32,8 +32,11 @@ https://deepscan.io/
 # Curso Angular v13: #12 - Angular Material
 ng add @angular/material
 
+https://material.io/
+
 https://material.angular.io/components/categories
 CDK = Component Dev Kit
 
 Flex-Layout
 https://tburleson-layouts-demos.firebaseapp.com/#/issues
+npm i @angular/flex-layout
