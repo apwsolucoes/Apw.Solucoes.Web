@@ -19,17 +19,16 @@
   <tr>
     <td>
       <h4>Portifólio</h4>
-      <div *ngFor="let portifolio of portifolioList">
-        <p (click)="onSelect(portifolio)" class="pover">
-          <b>{{ portifolio.name }}</b
-          ><br />
-          {{ portifolio.description }}<br />
-          <a href="{{ portifolio.url }}" target="_blank">{{
-            portifolio.url
-          }}</a>
-        </p>
-        <hr />
-      </div>
+      <mat-card
+        *ngFor="let portifolio of portifolioList"
+        class="portifolio-card"
+        (click)="onSelect(portifolio)"
+      >
+        <b>{{ portifolio.name }}</b
+        ><br />
+        {{ portifolio.description }}<br />
+        <a href="{{ portifolio.url }}" target="_blank">{{ portifolio.url }}</a>
+      </mat-card>
     </td>
     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td style="vertical-align: text-top">

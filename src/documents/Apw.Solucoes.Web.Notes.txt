@@ -40,3 +40,9 @@ CDK = Component Dev Kit
 Flex-Layout
 https://tburleson-layouts-demos.firebaseapp.com/#/issues
 npm i @angular/flex-layout
+
+Curso Angular v13: #13 - Hero Service
+Classes singleton = classe única na aplicação (compatilhada)
+
+ng g s portifolio
+@Injectable = Injeção de dependência

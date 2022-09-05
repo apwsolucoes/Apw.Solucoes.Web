@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { PortifolioViewComponent } from './pages/portifolio/portifolio-view/portifolio-view.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     FormsModule,
     BrowserAnimationsModule,
     MatToolbarModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
