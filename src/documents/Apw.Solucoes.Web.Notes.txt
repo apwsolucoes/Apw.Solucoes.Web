@@ -58,3 +58,12 @@ https://rxjs.dev/guide/observable
 de: function (value) para (value) =>
 
 Curso Angular v13: #16 - Mostrando Mensagens
+
+
+Curso Angular v13: #17 - Adicionando Navegação
+
+
+[npm]
+npm cache verify
+npm cache clean --force
+
