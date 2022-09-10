@@ -67,3 +67,9 @@ Curso Angular v13: #17 - Adicionando Navegação
 npm cache verify
 npm cache clean --force
 
+
+[extra-material]
+{
+  "name" : "creating-beautiful-apps-with-angular-material",
+  "url" : "https://auth0.com/blog/creating-beautiful-apps-with-angular-material/"
+}

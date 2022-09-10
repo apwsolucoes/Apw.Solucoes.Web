@@ -7,11 +7,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
 import { PortifolioViewComponent } from './pages/portifolio/portifolio-view/portifolio-view.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule } from '@angular/material/button';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatCardModule } from '@angular/material/card';
-import { MatIconModule } from '@angular/material/icon';
 import { MessagesComponent } from './components/messages/messages.component';
+import { DataService } from './core/services/data.service';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { MaterialModule } from './material.module';
 
 @NgModule({
   declarations: [
@@ -20,18 +19,16 @@ import { MessagesComponent } from './components/messages/messages.component';
     NavbarComponent,
     PortifolioViewComponent,
     MessagesComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     BrowserAnimationsModule,
-    MatToolbarModule,
-    MatCardModule,
-    MatButtonModule,
-    MatIconModule
+    MaterialModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
